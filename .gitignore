@@ -11,6 +11,9 @@
 # production
 /build
 
+#eso studio file
+.eosproj
+
 # misc
 .DS_Store
 .env.local
