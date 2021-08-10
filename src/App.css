@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: #61dafb;
+  min-height: 100vh;
+  padding: 0px 5px 0px 5px;
 }
 
 .App-logo {
@@ -14,14 +18,78 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 50px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.App-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-admin {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-user {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-button {
+  display: flex;
+  margin: 20px 0px; 
+}
+
+.login-btn {
+  padding: 5px 20px;
+  margin: 5px 30px;
+  border-radius: 5px;
+  background-color: #e5e9f0;
+  font-size: 2rem;
+}
+
+.sign-button {
+  padding: 5px 20px;
+  margin: 5px 30px;
+  border-radius: 5px;
+  background-color: #e5e9f0;
+  font-size: 2rem;
+}
+
+.App-account {
+  margin: 5px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-account-content {
+  margin-left: 20px;
+  color: #e68122;
+}
+
+.csv-upload {
+  margin: 5px 0px 10px 0px;
+}
+
+.csv-upload-file {
+  font-size: 1.3rem;
 }
 
 .App-link {
